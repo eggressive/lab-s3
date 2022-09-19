@@ -10,8 +10,8 @@ terraform {
 provider "aws" {
   profile    = "default"
   region     = "us-east-1"
-  access_key = "AKIATO7UJZDNCGOLUOMT"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
 }
 
 resource "aws_s3_bucket" "b" {
